@@ -2,9 +2,10 @@
   "type": "micro",
   "version": 2,
   "wake_word": "ok nemo",
-  "author": "custom",
+  "author": "merluso",
   "website": "",
   "trained_languages": ["es"],
+  "model": "https://raw.githubusercontent.com/merluso/wake_world_models/main/ohkay_neh_mo.tflite",
   "micro": {
     "probability_cutoff": 0.5,
     "sliding_window_size": 10,
